@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item3:
                 Toast.makeText(this,"Item 3 selected",Toast.LENGTH_SHORT).show();
                 return true;
+
                 default:
                     return super.onOptionsItemSelected(item);
 
